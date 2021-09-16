@@ -7,18 +7,31 @@
     <title>Project Code 2</title>
     <link rel="stylesheet" href="/style/normalize.css" />
     <link rel="stylesheet" href="/style/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
-      <p>Ganhe R$ 10,00 de desconto no frete</p>
-      <h2>Jordan Shoes</h2>
+      <div class="header-nav">
+        <p>Ganhe R$ 10,00 de desconto no frete</p>
+        <h2>Jordan Shoes</h2>
+      </div>
+
       <div class="bg-header">
-        <img src="/img/wallpaper.jpeg" alt="" />
-        <h1>A melhor loja de Jordan</h1>
-        <p>
-          O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e o
-          jogador Michael Jordan.
-        </p>
+        <div class="bg-img">
+          <img src="/img/wallpaper.jpeg" alt="" class="img" />
+        </div>
+        <div class="text-bg">
+          <h1>A melhor loja de Jordan</h1>
+          <p>
+            O tênis Jordan é fruto de uma velha e forte parceria entre a Nike e
+            o jogador Michael Jordan.
+          </p>
+        </div>
       </div>
     </header>
     <main>
@@ -27,36 +40,40 @@
         <p>
           Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado.
         </p>
-
-        <article class="article-cards">
-          <img src="/img/1.png" alt="" />
-        </article>
-        <article>
-          <img src="/img/2.png" alt="" />
-        </article>
-        <article>
-          <img src="/img/3.png" alt="" />
-        </article>
-        <article>
-          <img src="/img/4.png" alt="" />
-        </article>
-        <article>
-          <img src="/img/5.png" alt="" />
-        </article>
-        <article>
-          <img src="/img/6.png" alt="" />
-        </article>
-        <article>
-          <img src="/img/7.png" alt="" />
-        </article>
-        <article>
-          <img src="/img/8.png" alt="" />
-        </article>
+        <div class="grid">
+          <article class="article-cards">
+            <img src="/img/1.png" alt="" />
+          </article>
+          <article class="article-cards">
+            <img src="/img/2.png" alt="" />
+          </article>
+          <article class="article-cards">
+            <img src="/img/3.png" alt="" />
+          </article>
+          <article class="article-cards">
+            <img src="/img/4.png" alt="" />
+          </article>
+          <article class="article-cards">
+            <img src="/img/5.png" alt="" />
+          </article>
+          <article class="article-cards">
+            <img src="/img/6.png" alt="" />
+          </article>
+          <article class="article-cards">
+            <img src="/img/7.png" alt="" />
+          </article>
+          <article class="article-cards">
+            <img src="/img/8.png" alt="" />
+          </article>
+        </div>
       </section>
+
+      <div class="div"></div>
     </main>
 
     <footer>
-      <p>Todos os direitos reservados</p>
+      <p>Todos os direitos reservados.</p>
+      <p>Kevin Tavares</p>
     </footer>
   </body>
 </html>
