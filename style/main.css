@@ -76,10 +76,39 @@ html {
   background: #ebe9ea;
   margin-bottom: 30px;
   padding: 76px 65px;
+  position: relative;
+}
+
+.article-cards p {
+  position: absolute;
+  bottom: -20px;
+  left: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #181818;
+}
+
+.article-cards span {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0;
+}
+
+.article-cards:hover span {
+  opacity: 1;
+  transition: 1s all ease;
+}
+
+.article-cards:hover img {
+  transform: scale(1.3);
+  transition: 1s all ease;
 }
 
 .article-cards img {
-  max-width: 100%;
+  width: 100%;
 }
 
 footer {
@@ -123,6 +152,10 @@ footer {
     grid-template-rows: 1fr 1fr;
     margin: 100px 40px;
     gap: 13px;
+  }
+
+  .article-cards span {
+    font-size: 14px;
   }
 }
 
